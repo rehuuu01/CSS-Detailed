@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Position property-z index</title>
+    <style>
+        .zin{
+            height:100px;
+            width:100px;
+            position: absolute;
+            text-align: center;
+            border:2px solid black;
+
+        
+        }
+        #inner{
+            background-color:gray;
+            top:60px;
+            left:10px;
+            z-index:1 ;
+
+        }
+        #outer{
+            background-color:aquamarine;
+             top:90px;
+            left:20px;
+            z-index: 2; ;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="inner" class="zin">Inner</div>
+    <div id="outer" class="zin">Outer</div>
+    
+    
+</body>
+</html>
