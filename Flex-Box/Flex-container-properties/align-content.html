@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     
-    <title>Flex Box</title>
+    <title> Align Content</title>
     <style>
         *{
             margin:0;
@@ -13,32 +13,38 @@
             height: 100px;
             width:100px;
             border:3px solid black;
-            margin:5px;
+            margin-right:5px;
             background-color: burlywood;
         }
         #heading{margin-left:200px;}
         #container{
             height:600px;
-            width:150px;
+            width:600px;
             border:3px solid black;
             padding:10px;
             margin:20px;
             background-color: darkkhaki;
 
             display:flex;
-            flex-direction: column-reverse;
-
+            justify-content: center;
+            align-items:center;
+            flex-wrap: wrap;
+            align-content: center;
+            
         }
 
     </style>
 </head>
 <body>
-    <h1 id="heading">Flex container Column-reverse</h1>
+    <h1 id="heading">Flex container </h1>
     <div id="container">
         <div id="box1" class="box">Flex Item1</div>
          <div id="box2" class="box">Flex Item2</div>
           <div id="box3" class="box">Flex Item3</div>
            <div id="box4" class="box">Flex Item4</div>
+            <div id="box5" class="box">Flex Item5</div>
+             <div id="box6" class="box">Flex Item6</div>
+              <div id="box7" class="box">Flex Item7</div>
     </div>
 
     
