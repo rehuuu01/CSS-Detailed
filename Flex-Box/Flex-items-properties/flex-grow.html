@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>  </title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+
+        }
+        .box{
+            height: 100px;
+            width:100px;
+            border:3px solid black;
+            margin-right:5px;
+            background-color: burlywood;
+        }
+        #heading{margin-left:200px;}
+        #container{
+            height:300px;
+            width:600px;
+            border:3px solid black;
+            padding:10px;
+            margin:20px;
+            background-color: darkkhaki;
+
+            display:flex;
+            justify-content: center;
+          
+            
+            
+        }
+        #box2{
+           flex-grow: 2;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 id="heading">Flex container </h1>
+    <div id="container">
+        <div id="box1" class="box">Flex Item1</div>
+         <div id="box2" class="box" >Flex Item2</div>
+          <div id="box3" class="box">Flex Item3</div>
+           <div id="box4" class="box">Flex Item4</div>
+           
+    </div>
+
+    
+</body>
+</html>
