@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>CSS Transform</title>
+    <style>
+        .box{
+            height:80px;
+            width:80px;
+            background-color: bisque;
+            border-radius: 10px;
+            border: 2px solid black;
+            position:relative;
+            top:50px;
+            left:100px;
+            margin:10px;
+
+            transition: all 0.5s ease-in;
+          
+
+        }
+        #bt1:hover{
+            transform: translate(50px);
+
+        }
+        #bt2:hover{
+            transform: translate(50px, 50px);
+        }
+        #bt3:hover{
+            transform: translatey(50px);
+        }
+       
+    </style>
+</head>
+<body>
+    <div  id="bt1" class="box" >Translate</div>
+     <div id="bt2"  class="box">Translate</div>
+      <div id="bt3"  class="box">Translate</div>
+    
+</body>
+</html>
