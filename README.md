@@ -43,6 +43,7 @@ Through this repository, I practiced:
 
 ## 📂 Repository Structure
 
+
 ```text
 CSS-Detailed/
 │
