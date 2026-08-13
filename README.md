@@ -39,7 +39,7 @@ Through this repository, I practiced:
 - Styling webpages
 - Making responsive designs
 - Using media queries
-- Understanding different CSS properties and their behavior
+
 
 ## 📂 Repository Structure
 
